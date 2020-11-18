@@ -164,6 +164,16 @@
                     @endguest
                 @endif
             </ul>
+
+            <ul class="navbar-nav navbar-collapse ml-auto">
+                <li class="nav-item">
+                    <a href="{{ route('rooms.index') }}" class="nav-link">Rooms</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="{{ route('bookings.index') }}" class="nav-link">Bookings</a>
+                </li>
+            </ul>
             <form class="form-inline mt-2 mt-md-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>

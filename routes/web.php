@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('rooms.index');
 });
 
-Route::get('/rooms','ShowRoomsController');
+Route::get('/rooms/{roomType?}','ShowRoomsController')->name('rooms.index');
 
 Auth::routes();
 

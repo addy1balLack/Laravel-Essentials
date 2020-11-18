@@ -14,7 +14,7 @@
             <tr>
                 <th scope="row">{{ $key+1 }}</th>
                 <td>{{ $room->number }}</td>
-                <td>{{ $room->room_type_id }}</td>
+                <td>{{ $room->roomType->name }}</td>
             </tr>
         @endforeach
         </tbody>
